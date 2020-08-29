@@ -1,7 +1,7 @@
 const path = require("path");
 
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const webpack = require(webpack);
+const webpack = require("webpack");
 
 process.env.NODE_ENV = process.eventNames.NODE_ENV || "development";
 
