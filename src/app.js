@@ -12,6 +12,9 @@ import AppRouter from "./routers/AppRouter";
 
 import configureStore from "./store/configureStore";
 
+import "./firebase/firebase";
+import "./playground/promises";
+
 const store = configureStore();
 
 const jsx = (
